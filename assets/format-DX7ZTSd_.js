@@ -1,1 +1,0 @@
-function e(e){return`CHF ${e.toLocaleString(`de-CH`,{minimumFractionDigits:2,maximumFractionDigits:2})}`}function t(e){return e?new Date(e).toLocaleDateString(`de-CH`,{day:`2-digit`,month:`2-digit`,year:`numeric`}):`—`}function n(e=new Date){let t=e=>String(e).padStart(2,`0`);return`${e.getFullYear()}-${t(e.getMonth()+1)}-${t(e.getDate())}`}export{t as n,n as r,e as t};
